@@ -2,4 +2,15 @@
     <h1>Home</h1>
     <p><%= content %> </p>
 
+<% posts.forEach(element => { %>
+ <h1><%= element.blogTitle %> </h1>
+ <p>
+     <%= element.blogContent.substring(0,100) + "..." %> <a href="/posts/<%=element.blogTitle%> ">Read more</a>
+</p>
+<% }) %>
+
+<form action="/compose" method="get">
+    <button type="submit" class="btn btn-default btn-lg" formaction="/compose"> Compose</button>
+</form>
+
 <%- include("partials/footer") -%> 
