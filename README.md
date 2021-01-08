@@ -8,4 +8,4 @@ Home page
 ![home](https://github.com/pawarhrishi21/personal-blog-website/blob/master/images/home-ss.png)
  
 Compose page
-![compose](https://github.com/pawarhrishi21/personal-blog-website/blob/master/images/home-ss.png)
+![compose](https://github.com/pawarhrishi21/personal-blog-website/blob/master/images/compose-ss.png)
